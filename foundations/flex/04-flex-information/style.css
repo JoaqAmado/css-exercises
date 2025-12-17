@@ -12,6 +12,26 @@ img {
   font-weight: 900;
 }
 
+/* Answers */
+
+body{
+  text-align: center;
+}
+
+.title {
+  margin: 32px;
+}
+
+.gallery {
+  display: flex;
+  gap: 52px;
+  justify-content: space-around;
+}
+
+.image{
+  max-width: 200px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
