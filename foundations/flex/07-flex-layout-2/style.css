@@ -27,3 +27,66 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Answer */
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.content{
+  display: flex;
+  flex-grow: 1;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+
+  display: flex;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  margin-bottom: 16px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+
+.sidebar{
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.grid{
+  display: flex;
+  padding: 48px;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card{
+  width: 300px;
+  padding: 16px;
+}
